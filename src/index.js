@@ -6,6 +6,7 @@ import connectDB from "./db.js";
 connectDB();
 
 // Iniciar el servidor
-app.listen(3200, () => {
-  console.log("Servidor iniciado en el puerto 3200");
+const PORT = process.env.PORT || 3200;
+app.listen(PORT, () => {
+  console.log(`Servidor iniciado en el puerto ${PORT}`);
 });
