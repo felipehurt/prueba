@@ -11,7 +11,7 @@ router.post('/login', login);
 
 
 router.get('/users', (req, res) => {
-const users = [{ name: 'Juan' }, { name: 'Maria' },{ name: 'Felipe H' }]
+const users = [{ name: 'Juan' }, { name: 'Maria' },{ name: 'Antonia corazón' }]
 res.send(users)
 })
 
